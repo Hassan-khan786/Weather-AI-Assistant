@@ -425,7 +425,7 @@ export default function WeatherApp() {
                         {renderDetailCard('speedometer-outline', 'Pressure', `${selectedCity.details.pressure} hPa`)}
                         {renderDetailCard('partly-sunny', 'Wind', selectedCity.details.windSpeed)}
                         {renderDetailCard('sunny-outline', 'Sunrise', selectedCity.details.sunrise)}
-                        {renderDetailCard('moon-outline', 'Sunset', selectedCity.details.sunset)}
+                        {renderDetailCard('moon-outline', 'Sunsets', selectedCity.details.sunset)}
                       </View>
                     </>
                   )}
